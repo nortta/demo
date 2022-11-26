@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ccbd816a07b206f971042295b899d1ba",
+    "content-hash": "93444fb5860be0eaa06c7bf03c43f2da",
     "packages": [
         {
             "name": "brick/math",
@@ -2017,6 +2017,48 @@
                 "source": "https://github.com/nikic/PHP-Parser/tree/v4.15.2"
             },
             "time": "2022-11-12T15:38:23+00:00"
+        },
+        {
+            "name": "nortta/laravel-adapter",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/nortta/laravel-adapter.git",
+                "reference": "a80840b0623e5976e52d30389870268a7aec0ad7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/nortta/laravel-adapter/zipball/a80840b0623e5976e52d30389870268a7aec0ad7",
+                "reference": "a80840b0623e5976e52d30389870268a7aec0ad7",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/console": "^6.0|^7.0|^8.0|^9.0",
+                "illuminate/database": "^6.0|^7.0|^8.0|^9.0",
+                "illuminate/encryption": "^6.0|^7.0|^8.0|^9.0",
+                "illuminate/http": "^6.0|^7.0|^8.0|^9.0"
+            },
+            "default-branch": true,
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Nortta\\Laravel\\NorttaServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Nortta\\Laravel\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "description": "Laravel Adapter for Nortta",
+            "support": {
+                "issues": "https://github.com/nortta/laravel-adapter/issues",
+                "source": "https://github.com/nortta/laravel-adapter/tree/main"
+            },
+            "time": "2022-11-09T01:17:43+00:00"
         },
         {
             "name": "nunomaduro/termwind",
@@ -7813,7 +7855,9 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": [],
+    "stability-flags": {
+        "nortta/laravel-adapter": 20
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
