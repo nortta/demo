@@ -18,5 +18,5 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/', [QuestionsController::class, 'index'])->name('questions.index');
-Route::get('/{page:slug}', [QuestionsController::class, 'show'])->name('questions.show');
+//Route::get('/', [QuestionsController::class, 'index'])->name('questions.index');
+//Route::get('/{page:slug}', [QuestionsController::class, 'show'])->name('questions.show');
