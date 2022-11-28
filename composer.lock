@@ -2024,12 +2024,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/nortta/laravel-adapter.git",
-                "reference": "6c85472a1c68532f7c120c7c3c4f16602dae0a54"
+                "reference": "895cd9ae11164b49e173630192a661f4f1457fdc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nortta/laravel-adapter/zipball/6c85472a1c68532f7c120c7c3c4f16602dae0a54",
-                "reference": "6c85472a1c68532f7c120c7c3c4f16602dae0a54",
+                "url": "https://api.github.com/repos/nortta/laravel-adapter/zipball/895cd9ae11164b49e173630192a661f4f1457fdc",
+                "reference": "895cd9ae11164b49e173630192a661f4f1457fdc",
                 "shasum": ""
             },
             "require": {
@@ -2060,7 +2060,7 @@
                 "issues": "https://github.com/nortta/laravel-adapter/issues",
                 "source": "https://github.com/nortta/laravel-adapter/tree/main"
             },
-            "time": "2022-11-28T02:19:57+00:00"
+            "time": "2022-11-28T03:25:43+00:00"
         },
         {
             "name": "nunomaduro/termwind",
